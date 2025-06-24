@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif height: 200vh;
+    margin: 0;
+    height: 200vh;
+    width: 0;
+
+
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20%;
+    left: 90%;
+}
+
+.header-container {
+    position: relative;
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 300px;
+
+}
+
+.img-container {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+.new-container {
+    position: relative;
+}
+
+p {
+    position: absolute;
+    top: 300px;
+    box-shadow: inset;
+    background-color: azure;
+    border: 5px solid black;
+}
+
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 90px;
+}
+
+
+.headline {
+    display: flex;
+    position: relative;
+    left: 680px;
+    gap: 3px;
+
+}
+
+.home {
+    border: 2px solid rgb(174, 132, 132);
+    border-radius: 7px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.about {
+    border: 2px solid rgb(174, 132, 132);
+    border-radius: 7px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.new {
+    border: 2px solid rgb(174, 132, 132);
+    border-radius: 7px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.about:hover {
+    background-color: red;
+
+}
+
+.new:hover {
+    background-color: red;
+
+}
+
+.home:hover {
+    background-color: red;
+
+}
+
+.text-container {
+    position: relative;
+    width: 50ch;
+    margin: 0 auto;
+    line-height: 1.5em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: left;
+    top: 200px;
+    left: 90px;
+}
+
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0px;
+    border-radius: 5px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.vertical-text:hover {
+    background-color: red;
+
+}
